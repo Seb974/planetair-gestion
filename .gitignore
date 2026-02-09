@@ -1,5 +1,6 @@
 /.env
 /helm/api-platform/charts/*
+/helm/api-platform/keycloak/Dockerfile
 !/helm/api-platform/charts/.gitignore
 
 ###> Compose/Prod Compose with env secret vars ###
@@ -8,6 +9,7 @@
 /compoz.prod.yaml
 /compoze.(dev).yaml
 /compoze.(prod).yaml
+/compose (dev).yaml
 ###< Compose/Prod Compose with env secret vars ###
 
 /API_ARCHIVES/
